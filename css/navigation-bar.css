@@ -3,7 +3,7 @@ ul {
     padding: 0;
     margin-left: 10%;
     margin-right: 10%;
-    overflow: hidden;
+    overflow: auto;
     display: flex;
     justify-content: center;
 }
@@ -18,8 +18,9 @@ li a:link,li a:visited {
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
+    font-family: inherit;
     display: inline-block;
-    transition: 0.3s;
+    transition:0.3s;
   }
 
 li a:hover, a:active {
