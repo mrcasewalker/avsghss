@@ -1,0 +1,24 @@
+.h2 {
+    text-align: center;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #292F33;
+    margin-top: 0.3%;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.h4 {
+    text-align: center;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #292F33;
+    padding: 1px;
+    font-size: 20;
+}
+
+.logo {
+    width: 125px; 
+    height: 90px;
+}
