@@ -1,129 +1,38 @@
-<html>
-<!DOCTYPE html>
-<html>
-<style>
-    .para {
-        padding-left: 1%;
-        padding-right: 10%;
-        padding-bottom: 10%;
-        padding-top: 1%;
-        font-weight: normal;
-    }
-
-    .welcome-h2 {
-        font-size: 35px;
-        font-weight: bolder;
-        padding-left: 1%;
-        padding-right: 10%;
-        padding-bottom: 1%;
-        padding-top: 10%;
-    }
-
-    .welcome-h3 {
-        font-weight: normal;
-        padding-left: 1%;
-        padding-right: 10%;
-        padding-bottom: 1%;
-        padding-top: 1%;
-    }
-
-    .message {
-        font-size: 35px;
-        padding-left: 20%;
-        padding-right: 10%;
-        padding-top: 10%;
-    }
-
-    .para-message1 {
-        padding-left: 1%;
-        padding-right: 10%;
-        padding-top: 10%;
-        font-weight: normal;
-    }
-
-    .para-message2 {
-        padding-left: 5%;
-        padding-right: 10%;
-        padding-top: 1%;
-        font-weight: normal;
-    }
-
-    video {
-        padding-top: 5%;
-        padding-bottom: 5%;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-    .video-h2 {
-        font-size: 40px;
-        padding-left: 20%;
-        padding-right: 10%;
-        padding-top: 25%;
-    }
-
-    .video-para {
-        padding-top: 5%;
-        padding-bottom: 5%;
-        padding-left: 20%;
-        padding-right: 5%;
-
-
-    }
-
-    .last {
-        color: #e6fff7;
-        font-weight: normal;
-        font-family: sans-serif;
-        font-style: normal;
-        padding-top: 3%;
-        padding-bottom: 3%;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-
-    .last-logo {
-        width: 125px;
-        height: 90px;
-        padding-top: 3%;
-       
-        padding-left: 3%;
-        
-    }
-</style>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <title>AVSGHSS KVR</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>AVSGHSS KARIVELLURR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="stylesheet" href="./css/main-heading.css">
     <link rel="stylesheet" href="./css/navigation-bar.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+            $("#header").load("header.html"); 
+            //$("#footer").load("footer.html"); 
+        });
+
+        window.onload = function() {
+ 
+ alert( "welcome" );
+
+};
+    </script>
 </head>
 
 <body>
     <div class="container-fluid" style="background-color:  #e6fff7;">
 
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <img class="logo" src="logo.jpg">
-                <h1 class="h2">A V S G H S S KARIVELLUR</h1>
-                <h3 class="h4">A V Smaraka Government Higher Secondary School Karivellur</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <ul>
-                    <li><a href="#homepage">Home</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="./contacts.html">Contacts</a></li>
-                    <li><a href="">Courses</a></li>
-                    <li><a href="">History</a></li>
-                    <li><a href="">Map</a></li>
-                    <li><a href="">Achivments</a></li>
-                    <li><a href="">About</a></li>
-                </ul>
-            </div>
-        </div>
+
+
+        <div id="header"></div>
+
         <div class="row">
             <div class="col-sm-12">
                 <img src="home2.jpg" style="max-width: 100%; max-height: 100%;">
@@ -200,7 +109,10 @@
                 </video>
             </div>
         </div>
-        <div class="row">
+
+        <div id="footer"></div>
+
+        <!-- <div class="row">
             <div class="col-sm-4" style="background-color: #333;">
                 <img class="last-logo" src="logo.jpg" alt="logo">
                 <p class="LAST"> A V S G H S S Karivellur<br>
@@ -214,5 +126,16 @@
                     © AVS 2020 . All rights reserved
                 </p>
             </div>
-        </div>
+        </div> -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
 </body>
+
+</html>
