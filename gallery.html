@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>GALLERY-AVS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/main-heading.css">
+    <link rel="stylesheet" href="./css/navigation-bar.css">
+    <link rel="stylesheet" href="./css/sub-headings.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .header {
+            text-align: center;
+            padding: 32px;
+        }
+
+        .row {
+            display: -ms-flexbox;
+            /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap;
+            /* IE10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .column {
+            -ms-flex: 25%;
+            /* IE10 */
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+            .column {
+                -ms-flex: 50%;
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column {
+                -ms-flex: 100%;
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+
+<body>
+    <div style="background-color:  #e6fff7;">
+
+        <div class="col-sm-12 text-center">
+            <img class="logo" src="logo.jpg">
+            <h1 class="h2">A V S G H S S KARIVELLUR</h1>
+            <h3 class="h4">A V Smaraka Government Higher Secondary School Karivellur</h3>
+        </div>
+
+        <div style="background-color:  #e6fff7;">
+
+            <div class="rc_nav" id="centered_nav">
+                <a href="./homepage.html" style="text-decoration: none;">HOME</a></li>
+                <a href="" style="text-decoration: none;">GALLERY</a></li>
+                <a href="./contacts.html" style="text-decoration: none;">CONTACTS</a></li>
+                <a href="./acadamics.html" style="text-decoration: none;">ACADEMICS</a></li>
+                <a href="" style="text-decoration: none;">HISTORY</a></li>
+                <a href="" style="text-decoration: none;">ACHIVMENTS</a></li>
+                <a href="./map.html" style="text-decoration: none;">MAP</a></li>
+                <a href="" style="text-decoration: none;">ABOUT</a></li>
+                <a href="javascript:void(0);" title="Menu" style="font-size:18px; text-decoration: none;" class="icon"
+                    onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+
+        <hr class="divider">
+        <!-- Header -->
+        <div class="header">
+            <h1>AVSGHSS KARIVELLUR</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+        </div>
+
+        <!-- Photo Grid -->
+        <div class="row">
+            <div class="column">
+                <img src="./gallery/9.jpg" style="width:100%">
+                <img src="./gallery/10.jpg" style="width:100%">
+                <img src="./gallery/avsbg.jpg" style="width:100%">
+                <img src="./gallery/outrun-wallpaper-3554x1999.jpg" style="width:100%">
+                <img src="./gallery/schl.jpg" style="width:100%">
+                <img src="./gallery/6.jpg" style="width:100%">
+                <img src="./gallery/7.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="./gallery/10.jpg" style="width:100%"> 
+                <img src="./gallery/2.jpg" style="width:100%">
+                <img src="./gallery/3.jpg" style="width:100%">
+                <img src="./gallery/avsbg.jpg" style="width:100%">
+                <img src="./gallery/outrun-wallpaper-3554x1999.jpg" style="width:100%">
+                <img src="./gallery/schl.jpg" style="width:100%">
+                <img src="./gallery/avsbg.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="./gallery/1.jpg" style="width:100%">
+                <img src="./gallery/2.jpg" style="width:100%">
+                <img src="./gallery/3.jpg" style="width:100%">
+                <img src="./gallery/4.jpg" style="width:100%">
+                <img src="./gallery/avsbg.jpg" style="width:100%">
+                <img src="./gallery/outrun-wallpaper-3554x1999.jpg" style="width:100%">
+                <img src="./gallery/schl.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="./gallery/8.jpg" style="width:100%">
+                <img src="./gallery/9.jpg" style="width:100%">
+                <img src="./gallery/10.jpg" style="width:100%">
+                <img src="./gallery/avsbg.jpg" style="width:100%">
+                <img src="./gallery/outrun-wallpaper-3554x1999.jpg" style="width:100%">
+                <img src="./gallery/schl.jpg" style="width:100%">
+                <img src="./gallery/10.jpg" style="width:100%">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrityp="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("centered_nav");
+            if (x.className === "rc_nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "rc_nav";
+            }
+        }
+    </script>
+</body>
+
+</html>

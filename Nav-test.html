@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>test </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/main-heading.css">
+    <link rel="stylesheet" href="./css/navigation-bar.css">
+    <link rel="stylesheet" href="./css/sub-headings.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/nav-js.js">
+    <style>
+        .container {
+            position: relative;
+
+        }
+
+        .image {
+            opacity: 1;
+            max-width: 100%;
+            max-height: 100%;
+            transition: .5s ease;
+            backface-visibility: hidden;
+
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .container:hover .image {
+            opacity: 0.3;
+        }
+
+        .container:hover .middle {
+            opacity: 1;
+        }
+
+        .text {
+
+            color: black;
+            font-size: 35px;
+        }
+
+        .message-img {
+            max-width: 100%;
+            max-height: 100%;
+            margin-left: 6%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="background-color:  #e6fff7;">
+
+        <div class="col-sm-12 text-center">
+            <img class="logo" src="logo.jpg">
+            <h1 class="h2">A V S G H S S KARIVELLUR</h1>
+            <h3 class="h4">A V Smaraka Government Higher Secondary School Karivellur</h3>
+        </div>
+
+        <div class="col-sm-12" class="navigation-bar">
+            <ul class="navigation-list" style="list-style-type: none;">
+                <li class="main-nav"><a href="./homepage.html">HOME</a></li>
+                <li class="main-nav"><a href="">GALLERY</a></li>
+                <li class="main-nav"><a href="./contacts.html">CONTACTS</a></li>
+                <li class="main-nav"><a href="./acadamics.html">ACADEMICS</a></li>
+                <li class="main-nav"><a href="">HISTORY</a></li>
+                <li class="main-nav"><a href="">ACHIVMENTS</a></li>
+                <li class="main-nav"><a href="./map.html">MAP</a></li>
+                <li class="main-nav"><a href="">ABOUT</a></li>
+            </ul>
+        </div>
+
+
+        <hr class="divider">
+
+
+        <div id="header"></div>
+
+
+        <div class="container">
+            <img src="./schoolimg.jpg" class="image" style="width: auto; height: auto;">
+            <div class="middle">
+                <div class="text">WELCOME<br>TO</div>
+                <div class="text" style="font-weight: 500;">AVSGHSS KARIVELLUR </div>
+            </div>
+        </div>
+
+        <h4 class="ourschool"><b>OUR SCHOOL</b></h4>
+        <div>
+            <p class="para">LOREM IPSUM (dolor sit amet) consectetur adipisicing elit. Corrupti magnam ab molestias
+                non, maxime
+                dicta fuga ratione sapiente quas alias! Dolores minima totam tempore ipsa quidem iste non laborum.
+                Fuga?<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia quasi dolorem magni nostrum minima
+                vero architecto culpa aperiam sapiente ducimus labore est possimus officia laborum amet, ipsum
+                voluptate suscipit.
+            </p>
+        </div>
+
+
+        <div>
+            <h4 class="message">Message</h4>
+            <img src="PJ.jpg" class="message-img" style="width: 250px; height: 150px;">
+
+            <p class="para-message1">
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cum rem ex optio voluptate,
+                debitis blanditiis quidem impedit dolores placeat aliquam expedita velit illum odio ab sed
+                consequatur, perferendis repellendus!Lorem adipisicing elit.<br> Culpa iure sint aut optio dolorum
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa iure sint aut optio dolorum
+                accusamus expedita ex, unde libero veritatis, similique obcaecati architecto deserunt, nihil
+                ut aspernatur laborum sapiente in.con sara untur odit ad ipsum sequi.animi dolor tenetur qui adi
+                santium, facilis itaque quas et
+
+            </p>
+
+        </div>
+
+        <div class="">
+            <div>
+                <h3 class="video-h3"> THE SCHOOL VIDEO</h3>
+                <p class="video-para"> LOREM IPSUM dolor sit, amet consectetur adipisicing elit....
+                </p>
+            </div>
+            <div>
+                <video width="400" controls>
+                    <source src="./Ping!.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+            </div>
+        </div>
+        <div id="footer"></div>
+
+        <!-- <div class="">
+            <div class="col-sm-4" style="background-color: #333;">
+                <img class="last-logo" src="logo.jpg" alt="logo">
+                <p class="LAST"> A V S G H S S Karivellur<br>
+                    Karivellur P O , Payyannur, <br>
+                    kannur, Kerala, INDIA<br>
+                    Phone No : 26754321<br>
+                    Mobile No : 5983873485793058<br>
+
+                    <br>
+
+                    © AVS 2020 . All rights reserved
+                </p>
+            </div>
+        </div> -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrityp="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>

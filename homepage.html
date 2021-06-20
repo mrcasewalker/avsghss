@@ -3,116 +3,149 @@
 
 <head>
     <title>AVSGHSS KARIVELLURR</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./css/main-heading.css">
     <link rel="stylesheet" href="./css/navigation-bar.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-    </script>
-    <script> 
-        $(function(){
-            $("#header").load("header.html"); 
-            //$("#footer").load("footer.html"); 
-        });
+    <link rel="stylesheet" href="./css/sub-headings.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <style>
+        .container {
+            position: relative;
 
-        window.onload = function() {
- 
- alert( "welcome" );
+        }
 
-};
-    </script>
+        .image {
+            opacity: 1;
+            max-width: 100%;
+            max-height: 100%;
+            transition: .5s ease;
+            backface-visibility: hidden;
+
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .container:hover .image {
+            opacity: 0.3;
+        }
+
+        .container:hover .middle {
+            opacity: 1;
+        }
+
+        .text {
+
+            color: black;
+            font-size: 35px;
+        }
+
+        .message-img {
+            max-width: 100%;
+            max-height: 100%;
+            margin-left: 6%;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container-fluid" style="background-color:  #e6fff7;">
 
+    <div style="background-color:  #e6fff7;">
+
+        <div class="col-sm-12 text-center">
+            <img class="logo" src="logo.jpg">
+            <h1 class="h2">A V S G H S S KARIVELLUR</h1>
+            <h3 class="h4">A V Smaraka Government Higher Secondary School Karivellur</h3>
+        </div>
+
+        
+
+            <div class="rc_nav" id="centered_nav">
+                <a href="./homepage.html" style="text-decoration: none;">HOME</a></li>
+                <a href="./gallery.html" style="text-decoration: none;">GALLERY</a></li>
+                <a href="./contacts.html" style="text-decoration: none;">CONTACTS</a></li>
+                <a href="./acadamics.html" style="text-decoration: none;">ACADEMICS</a></li>
+                <a href="" style="text-decoration: none;">HISTORY</a></li>
+                <a href="" style="text-decoration: none;">ACHIVMENTS</a></li>
+                <a href="./map.html" style="text-decoration: none;">MAP</a></li>
+                <a href="" style="text-decoration: none;">ABOUT</a></li>
+                <a href="javascript:void(0);" title="Menu" style="font-size:18px; text-decoration: none;" class="icon"
+                    onclick="myFunction()">&#9776;</a>
+            </div>
+       
+
+        <hr class="divider">
 
 
         <div id="header"></div>
 
-        <div class="row">
-            <div class="col-sm-12">
-                <img src="home2.jpg" style="max-width: 100%; max-height: 100%;">
+
+        <div class="container">
+            <img src="./schoolimg.jpg" class="image" style="width: auto; height: auto;">
+            <div class="middle">
+                <div class="text">WELCOME<br>TO</div>
+                <div class="text" style="font-weight: 500;">AVSGHSS KARIVELLUR </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <img src="home3.jpg" style="max-width: 100%; max-height: 100%;
-                     padding-left: 10%; padding-right: 5%; padding-top: 10%; padding-bottom: 10%;">
-            </div>
-            <div class="col-sm-6">
-                <h2 class="welcome-h2">WELCOME TO</h2>
-                <h3 class="welcome-h3"> AVSGHSS KARIVELLUR</h3>
-                <p class="para">LOREM IPSUM (dolor sit amet) consectetur adipisicing elit. Corrupti magnam ab molestias
-                    non, maxime
-                    dicta fuga ratione sapiente quas alias! Dolores minima totam tempore ipsa quidem iste non laborum.
-                    Fuga?<br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia quasi dolorem magni nostrum minima
-                    vero architecto culpa aperiam sapiente ducimus labore est possimus officia laborum amet, ipsum
-                    voluptate suscipit.
+
+        <h4 class="ourschool"><b>OUR SCHOOL</b></h4>
+        <div>
+            <p class="para">LOREM IPSUM (dolor sit amet) consectetur adipisicing elit. Corrupti magnam ab molestias
+                non, maxime
+                dicta fuga ratione sapiente quas alias! Dolores minima totam tempore ipsa quidem iste non laborum.
+                Fuga?<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia quasi dolorem magni nostrum minima
+                vero architecto culpa aperiam sapiente ducimus labore est possimus officia laborum amet, ipsum
+                voluptate suscipit.
+            </p>
+        </div>
+
+
+        <div>
+            <h4 class="message">Message</h4>
+            <img src="PJ.jpg" class="message-img" style="width: 250px; height: 150px;">
+
+            <p class="para-message1">
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cum rem ex optio voluptate,
+                debitis blanditiis quidem impedit dolores placeat aliquam expedita velit illum odio ab sed
+                consequatur, perferendis repellendus!Lorem adipisicing elit. Culpa iure sint aut optio dolorum
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa iure sint aut optio dolorum
+                accusamus expedita ex, unde libero veritatis, similique obcaecati architecto deserunt, nihil
+                ut aspernatur laborum sapiente in.con sara untur odit ad ipsum sequi.animi dolor tenetur qui adi
+                santium, facilis itaque quas et Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur beatae aperiam, rerum similique impedit commodi autem laborum tenetur
+                 dolorum aspernatur ducimus eaque perspiciatis, modi praesentium natus, aliquam esse unde consequuntur.
+
+            </p>
+
+        </div>
+
+        <div class="">
+            <div>
+                <h3 class="video-h3"> THE SCHOOL VIDEO</h3>
+                <p class="video-para"> LOREM IPSUM dolor sit, amet consectetur adipisicing elit....
                 </p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <h4 class="message">Message</h4>
-                <img src="PJ.jpg" style="max-width: 100%; max-height: 100%;
-                 padding-left: 20%; padding-right: 1; padding-top: 10%; padding-bottom: 10%;">
-
-            </div>
-            <div class="col-sm-9">
-
-                <p class="para-message1">
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cum rem ex optio voluptate,
-                    debitis blanditiis quidem impedit dolores placeat aliquam expedita velit illum odio ab sed
-                    consequatur, perferendis repellendus!Lorem adipisicing elit. Culpa iure sint aut optio dolorum
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa iure sint aut optio dolorum
-                    accusamus expedita ex, unde libero veritatis, similique obcaecati architecto deserunt, nihil
-                    ut aspernatur laborum sapiente in.con sara untur odit ad ipsum sequi.animi dolor tenetur qui adi
-                    santium, facilis itaque quas et cum minus sequi molestias eligendi ratione at ex doloremque, o
-                    bcaecati ducimus, aut eos modi? neque accusantium quisquam ipsa eaque praesentium ullam, omnis
-                    ullam, omnis suscipit ex consectetur eveniet impedit.Lorem ipsum dolor sit, amet consectetur
-                    adipisicing elit. Doloribus inventore libero obcaecat, neque accusantium quisquam ipsa eaque
-                    i dolor delectus enim exercitationem illum, neque accusantium quisquam ipsa eaque praesentium
-
-                </p>
-
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <p class="para-message2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cum rem ex optio voluptate,
-                    debitis blanditiis quidem impedit dolores placeat aliquam expedita velit illum odio ab sed
-                    consequatur, perferendis repellendus!Lorem adipisicing elit. Culpa iure sint aut optio dolorum
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa iure sint aut optio dolorum
-                    accusamus expedita ex, unde libero veritatis, similique obcaecati architecto deserunt, nihil
-
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-5">
-                <h2 class="video-h2"> THE SCHOOL VIDEO</h2>
-                <p class="video-para"> LOREM IPSUM dolor sit, amet consectetur adipisicing elit.
-                    Tempore maiores eum sunt est sapiente cumque esse neque eius. Maxime sit commodi cum.</p>
-            </div>
-            <div class="col-sm-7">
-                <video width="750" height="500" controls>
-                    <source src="home-video.mp4" type="video/mp4">
+            <div>
+                <video width="400" controls>
+                    <source src="./Ping!.mp4" type="video/mp4">
                     Your browser does not support HTML video.
                 </video>
             </div>
-        </div>
 
-        <div id="footer"></div>
+            <div id="footer"></div>
 
-        <!-- <div class="row">
+            <!-- <div class="">
             <div class="col-sm-4" style="background-color: #333;">
                 <img class="last-logo" src="logo.jpg" alt="logo">
                 <p class="LAST"> A V S G H S S Karivellur<br>
@@ -127,15 +160,25 @@
                 </p>
             </div>
         </div> -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                integrityp="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous"></script>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("centered_nav");
+                    if (x.className === "rc_nav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "rc_nav";
+                    }
+                }
+            </script>
 </body>
 
 </html>
