@@ -1,0 +1,67 @@
+.ourschool {
+    margin-left: 6%;
+    padding-top: 2%;
+}
+
+.para {
+    padding-right: 10%;
+    padding-left: 6%;
+    text-align: left;
+    padding-top: 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.message {
+    font-size: 35px;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+.para-message1 {
+    font-size: 16px;
+    margin-left: 6%;
+    font-weight: normal;
+}
+
+.para-message2 {
+    padding-left: 6%;
+    padding-right: 10%;
+    padding-top: 1%;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+video {
+    margin-left: 6%;
+    width: 75%;
+    height: auto;
+}
+
+.video-h3 {
+    font-size: 35px;
+    margin-left: 6%;
+    padding-top: 5%;
+}
+
+.video-para {
+    font-size: 16px;    
+    margin-left: 6%;
+}
+
+/* .welcome-h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    padding-left: 1%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    padding-top: 10%;
+}
+
+.welcome-h3 {
+    font-weight: normal;
+    padding-left: 1%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+} */
