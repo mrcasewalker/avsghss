@@ -1,6 +1,8 @@
+
 .ourschool {
     margin-left: 6%;
     padding-top: 2%;
+    color: #10192efb;
 }
 
 .para {
@@ -10,18 +12,21 @@
     padding-top: 0;
     font-weight: normal;
     font-size: 16px;
+    color: #10192efb;
 }
 
 .message {
     font-size: 35px;
     padding-left: 6%;
     padding-top: 2%;
+    color: #10192efb;
 }
 
 .para-message1 {
     font-size: 16px;
     margin-left: 6%;
     font-weight: normal;
+    color: #10192efb;
 }
 
 .para-message2 {
@@ -30,23 +35,27 @@
     padding-top: 1%;
     font-weight: normal;
     font-size: 16px;
+    color: #10192efb;
 }
 
 video {
     margin-left: 6%;
     width: 75%;
     height: auto;
+    color: #10192efb;
 }
 
 .video-h3 {
     font-size: 35px;
     margin-left: 6%;
     padding-top: 5%;
+    color: #10192efb;
 }
 
 .video-para {
     font-size: 16px;    
     margin-left: 6%;
+    color: #10192efb;
 }
 
 /* .welcome-h2 {
