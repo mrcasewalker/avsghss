@@ -1,23 +1,23 @@
-.h2 {
+.schl-main {
     text-align: center;
     font-style: normal;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #292F33;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #151e2e;
     margin-top: 0.3%;
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: bold;
     
 
 }
 
-.h4 {
+.schl-sub {
     text-align: center;
     font-style: normal;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #292F33;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #151e2e;
     padding: 1px;
     font-size: 20;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .logo {
