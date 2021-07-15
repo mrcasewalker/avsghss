@@ -24,7 +24,7 @@ footer {
     background-color: #282d32;
     height: auto;
     width: 100vw;
-    font-family: "Open Sans";
+    font-family: Poppins, sans-serif;
     padding-top: 40px;
     color: #fff;
 }
@@ -39,7 +39,7 @@ footer {
 
 .footer-content h3 {
     font-size: 1.8rem;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: capitalize;
     line-height: 3rem;
 }
