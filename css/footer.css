@@ -6,9 +6,18 @@
 
 .footer-dark h3 {
   margin-top: 0;
-  margin-bottom: 12px;
-  font-weight: bold;
+  margin-bottom: 16px;
+  font-weight: 500;
   font-size: 16px;
+  text-align: center;
+}
+
+.footer-dark p {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
 }
 
 .footer-dark ul {
@@ -29,6 +38,47 @@
   opacity: 0.8;
 }
 
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  display: flex;
+  gap: 10px;
+}
+
+.footer-dark .item.social>a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social>a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.footer-dark .design {
+  text-align: center;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
 @media (max-width:767px) {
   .footer-dark .item:not(.social) {
     text-align: center;
@@ -62,28 +112,3 @@
   }
 }
 
-.footer-dark .item.social>a {
-  font-size: 20px;
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
-  margin: 0 8px;
-  color: #fff;
-  opacity: 0.75;
-}
-
-.footer-dark .item.social>a:hover {
-  opacity: 0.9;
-}
-
-.footer-dark .copyright {
-  text-align: center;
-  padding-top: 24px;
-  opacity: 0.3;
-  font-size: 13px;
-  margin-bottom: 0;
-}
