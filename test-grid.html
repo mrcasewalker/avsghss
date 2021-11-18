@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <style>
+        #container1 {
+            width: 95vw;
+            height: 60vh;
+            margin: 0 auto;
+            text-align: center;
+            background-color: gray;
+            outline: 2px solid #4834d4;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px));
+            grid-template-rows: 1fr;
+
+        }
+
+        #container2 {
+            width: 95vw;
+            height: 60vh;
+            margin: 0 auto;
+            text-align: center;
+            background-color: gray;
+            outline: 2px solid #4834d4;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(300px, 1fr)) ;
+            
+        }
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #222;
+            text-align: center;
+            box-shadow: 1px 2px 3px grey;
+            border-radius: 8px;
+            color: #222;
+            font-size: 2em;
+            font-family: arial, sans-serif;
+            background-color: #f9d423;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .item:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container1">
+        <div class="item one">1</div>
+    </div>
+    <div id="container2">
+        <div class="item one">1</div>
+        <div class="item two">2</div>
+        <div class="item three">3</div>
+        <div class="item four">4</div>
+        
+ 
+    </div>
+</body>
+
+</html>
