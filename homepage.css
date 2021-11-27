@@ -19,16 +19,14 @@
 }
 
 .event-heading {
-    margin-left: 5%;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     padding-bottom: 2%;
     padding-top: 2%;
 }
 
 .event-sub_heading {
-    margin-left: 5%;
-    font-size: 25px;
+    font-size: 20px;
     
     text-align: center;
 }
